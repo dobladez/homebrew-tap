@@ -6,23 +6,23 @@ class Clv < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dobladez/clview/releases/download/v0.3.0/clv-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "02ee337a569702b08f8e21bb5dce8d1558759c2d46f247e8d54e5bb0980d5a1a"
+      url "https://github.com/dobladez/clview/releases/download/v0.4.0/clv-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e7724dfa7efe6e367423b50a439a5763efef1864ef2ea182b3a7129d0921fe58"
     end
     on_intel do
-      url "https://github.com/dobladez/clview/releases/download/v0.3.0/clv-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c38aca06344de3f210b583fb085033767ee3242ee9a591731885c7e5b1dacb2c"
+      url "https://github.com/dobladez/clview/releases/download/v0.4.0/clv-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4b1a540956eed8f6756a42ca3e2e43df0a006594d906fc6405ee11854dfdbe0f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dobladez/clview/releases/download/v0.3.0/clv-0.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "05a027b091d0c2a8b435108078253f18cb31b010e1cad097a412f3469b91c8d2"
+      url "https://github.com/dobladez/clview/releases/download/v0.4.0/clv-0.4.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "645d4507f6a680f09374d26139696e4f2eac66394145c3728288ba588ec9babe"
     end
     on_intel do
-      url "https://github.com/dobladez/clview/releases/download/v0.3.0/clv-0.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9106079cf1486e5210b185e72788aa63bbbd3f6923d237b80b6149677bb62e9b"
+      url "https://github.com/dobladez/clview/releases/download/v0.4.0/clv-0.4.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "82bd6149f8255b1f94e097c3708f1c9d7c41914eb2e27d27251a3cc17f7623c9"
     end
   end
 
